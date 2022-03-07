@@ -6,7 +6,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 nav ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+a{margin:0;padding:0;font-size:80%;vertical-align:baseline;background:transparent}
 ins{background-color:#ff9;color:#000;text-decoration:none}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
@@ -125,7 +125,7 @@ input,select{vertical-align:middle}
 .taskbarPanel {
     display: inline-block;
     border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 4px;
     line-height: 24px;
     margin: 2px 0 0 10px;
     font-size: 12px;
@@ -183,7 +183,7 @@ input,select{vertical-align:middle}
 /*Demo styles BEGIN*/
 #window0 {	top: 300px;	left: 100px;}
 #window1 {	top: 400px; 	left: 120px;}
-#window2 {	top: 600px; 	left: 250px;}
+#window2 {	top: 50px; 	left: 250px;}
 #window3 {	top: 200px; 	left: 280px;}
 
 #window0 .wincontent {	width: 90px; height: 60px;	}
