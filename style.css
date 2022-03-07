@@ -66,7 +66,7 @@ input,select{vertical-align:middle}
     cursor: pointer;
     border: 2px solid #000;
     margin-left: 4px;
-    font-size: 19px;
+    font-size: 14px;
     padding: 2px 10px;
     font-family: "Arial Black", Gadget, sans-serif;
     border-radius: 5px;
@@ -110,8 +110,8 @@ input,select{vertical-align:middle}
 }
 .wincontent {
     padding: 10px;
-    min-width: 200px;
-    min-height: 140px;
+    min-width: 120px;
+    min-height: 70px;
     border: 2px solid #000;
     margin: 2px;
 	border-radius: 0 0 5px 5px;
@@ -120,7 +120,7 @@ input,select{vertical-align:middle}
     float: left;
     margin: 0px 3px 0 10px;
     line-height: 29px;
-    font-size: 17px;
+    font-size: 15px;
 }
 .taskbarPanel {
     display: inline-block;
@@ -128,7 +128,7 @@ input,select{vertical-align:middle}
     border-radius: 5px;
     line-height: 24px;
     margin: 2px 0 0 10px;
-    font-size: 17px;
+    font-size: 14px;
     padding: 0 10px;
     background: #CCC;
     font-weight: bold;
@@ -176,7 +176,7 @@ input,select{vertical-align:middle}
     bottom: 10px;
     right: 20px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     color: #30478c;
 }
 
