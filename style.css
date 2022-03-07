@@ -110,8 +110,8 @@ input,select{vertical-align:middle}
 }
 .wincontent {
     padding: 10px;
-    min-width: 200px;
-    min-height: 140px;
+    min-width: 80px;
+    min-height: 80px;
     border: 2px solid #000;
     margin: 2px;
 	border-radius: 0 0 5px 5px;
@@ -185,10 +185,10 @@ input,select{vertical-align:middle}
 #window1 {	top: 400px; left: 120px;}
 #window2 {	top: 250px; left: 300px;}
 #window3 {	top: 125px; left: 420px;}
-#window0 .wincontent {	width: 660px; height: 400px;	}
-#window1 .wincontent {	width: 500px; height: 300px;	}
-#window2 .wincontent {	width: 400px; height: 350px;	}
-#window3 .wincontent {	width: 400px; height: 350px;	}
+#window0 .wincontent {	width: 150px; height: 90px;	}
+#window1 .wincontent {	width: 300px; height: 300px;	}
+#window2 .wincontent {	width: 80px; height: 80px;	}
+#window3 .wincontent {	width: 200px; height: 200px;	}
 @media screen and (max-width:960px){
 	#window0 {	left: 10px;	}
 	#window3 {	left: 50px;	}	
