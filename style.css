@@ -183,7 +183,7 @@ input,select{vertical-align:middle}
 /*Demo styles BEGIN*/
 #window0 {	top: 30px;	left: 100px;}
 #window1 {	top: 100px; left: 120px;}
-#window2 {	top: 200px; left: 150px;}
+#window2 {	top: auto; left: auto;}
 #window3 {	top: 140px; left: 300px;}
 #window0 .wincontent {	width: 170px; height: 150px;	}
 #window1 .wincontent {	width: 170px; height: 140px;	}
