@@ -183,10 +183,10 @@ input,select{vertical-align:middle}
 /*Demo styles BEGIN*/
 #window0 {	top: 30px;	left: 100px;}
 #window1 {	top: 100px; left: 120px;}
-#window2 {	top: auto; left: auto;}
-#window3 {	top: 140px; left: 300px;}
+#window2 {	top: 120px; left: 100px;}
+#window3 {	top: 140px; left: 100px;}
 #window0 .wincontent {	width: 170px; height: 150px;	}
-#window1 .wincontent {	width: 170px; height: 140px;	}
+#window1 .wincontent {	width: 180px; height: 150px;	}
 #window2 .wincontent {	width: 120px; height: 90px;	}
 #window3 .wincontent {	width: 140px; height: 90px;	}
 @media screen and (max-width:960px){
