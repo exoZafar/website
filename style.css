@@ -185,10 +185,10 @@ input,select{vertical-align:middle}
 #window1 {	top: 100px; left: 120px;}
 #window2 {	top: 200px; left: 150px;}
 #window3 {	top: 140px; left: 300px;}
-#window0 .wincontent {	width: 150px; height: 70px;	}
-#window1 .wincontent {	width: 110px; height: 80px;	}
-#window2 .wincontent {	width: 140px; height: 80px;	}
-#window3 .wincontent {	width: 140px; height: 70px;	}
+#window0 .wincontent {	width: 170px; height: 150px;	}
+#window1 .wincontent {	width: 170px; height: 140px;	}
+#window2 .wincontent {	width: 120px; height: 90px;	}
+#window3 .wincontent {	width: 140px; height: 90px;	}
 @media screen and (max-width:960px){
 	#window0 {	left: 10px;	}
 	#window3 {	left: 50px;	}	
@@ -199,7 +199,7 @@ input,select{vertical-align:middle}
 	#window1 {	top: 190px;	left: -5px;	}
 }
 @media screen and (max-width:540px){
-#window0 .wincontent {	width: 230px; height: 200px;	}
+#window0 .wincontent {	width: auto; height: 220px;	}
 #window3 .wincontent {
     width: 275px;
     height: auto;
