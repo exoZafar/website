@@ -206,11 +206,41 @@ input, select {
 	#window2 {	left: 100px;	}
 	#window1 {	top: 190px;	left: 5px;	}
 }
-@media screen and (max-width:540px){
-#window0 .wincontent {	width: auto; height: 220px;	}
-#window3 .wincontent {
-    width: 275px;
-    height: auto;
+/* Media queries adjustments for smaller screens like iPhones */
+@media screen and (max-width: 540px) {
+    #window0 { 
+        top: 30px;
+        left: 20px;
+    }
+    #window1 { 
+        top: 70px;
+        left: 30px;
+    }
+    #window2 { 
+        top: 110px;
+        left: 40px;
+    }
+    #window3 { 
+        top: 150px;
+        left: 50px;
+    }
+    
+    #window0 .wincontent { 
+        width: 80px;
+        height: 60px;
+    }
+    #window1 .wincontent { 
+        width: 100px;
+        height: 80px;
+    }
+    #window2 .wincontent { 
+        width: 70px;
+        height: 50px;
+    }
+    #window3 .wincontent { 
+        width: 60px;
+        height: 40px;
+    }
 }
 #window3 {    top: 9px;    left: 10px;	}
 #window2 {    left: 10px;	}
