@@ -20,9 +20,18 @@ input,select{vertical-align:middle}
 input, select {
     font-family: Courier, monospace;
 }
+
+/* Apply white text on black background */
 body {
-    /* This filter will apply a red tint */
-    filter: sepia(50%) hue-rotate(20deg) saturate(300%);
+    background-color: black;
+    color: white;
+}
+
+/* For both desktop and mobile devices */
+#desktop {
+    /* Adjust the background color */
+    background: black; /* Background color of the desktop area */
+    /* Other styles */
 }
 
 #desktop {
