@@ -15,17 +15,33 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
+/* For both desktop and mobile devices */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Specific styles for iPhone or mobile devices */
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    /* Additional styles for your specific content on smaller screens */
+    /* You can add specific styles for smaller screens here */
+}
+
+/* Styles that apply universally for both desktop and mobile */
 #desktop {
-	font-family: Arial, Helvetica, sans-serif;
     position: fixed;
-    height: 100%;
-    width: 100%;
+    height: 100vh; /* 100% viewport height */
+    width: 100vw; /* 100% viewport width */
     background: #CCC;
-	overflow: hidden;
+    overflow: hidden;
     top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
+    bottom: 0;
 }
 .window {
     position: absolute;
