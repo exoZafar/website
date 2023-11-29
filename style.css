@@ -20,7 +20,10 @@ input,select{vertical-align:middle}
 input, select {
     font-family: Courier, monospace;
 }
-
+body {
+    /* This filter will apply a red tint */
+    filter: sepia(50%) hue-rotate(20deg) saturate(300%);
+}
 
 #desktop {
 	font-family: Courier, monospace;
@@ -206,23 +209,22 @@ input, select {
 	#window2 {	left: 100px;	}
 	#window1 {	top: 190px;	left: 5px;	}
 }
-/* Media queries adjustments for smaller screens like iPhones */
 @media screen and (max-width: 540px) {
     #window0 { 
-        top: 30px;
-        left: 20px;
+        top: 20px;
+        left: 10px;
     }
     #window1 { 
         top: 70px;
-        left: 30px;
+        left: 20px;
     }
     #window2 { 
-        top: 110px;
-        left: 40px;
+        top: 120px;
+        left: 30px;
     }
     #window3 { 
-        top: 150px;
-        left: 50px;
+        top: 170px;
+        left: 40px;
     }
     
     #window0 .wincontent { 
@@ -230,8 +232,8 @@ input, select {
         height: 60px;
     }
     #window1 .wincontent { 
-        width: 100px;
-        height: 80px;
+        width: 90px;
+        height: 70px;
     }
     #window2 .wincontent { 
         width: 70px;
