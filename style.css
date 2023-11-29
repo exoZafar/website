@@ -21,19 +21,6 @@ input, select {
     font-family: Courier, monospace;
 }
 
-/* Apply white text on black background */
-body {
-    background-color: black;
-    color: white;
-}
-
-/* For both desktop and mobile devices */
-#desktop {
-    /* Adjust the background color */
-    background: black; /* Background color of the desktop area */
-    /* Other styles */
-}
-
 #desktop {
 	font-family: Courier, monospace;
     position: fixed;
@@ -206,7 +193,7 @@ body {
 #window2 {	top: 160px; left: 129px;}
 #window3 {	top: 220px; left: 112px;}
 #window0 .wincontent {	width: 130px; height: 90px;	}
-#window1 .wincontent {	width: 160px; height: 130px;	}
+#window1 .wincontent {	width: 100px; height: 90px;	}
 #window2 .wincontent {	width: 120px; height: 80px;	}
 #window3 .wincontent {	width: 110px; height: 50px;	}
 @media screen and (max-width:960px){
@@ -238,11 +225,11 @@ body {
     
     #window0 .wincontent { 
         width: 80px;
-        height: 60px;
+        height: 90px;
     }
     #window1 .wincontent { 
-        width: 90px;
-        height: 70px;
+        width: 80px;
+        height: 100px;
     }
     #window2 .wincontent { 
         width: 70px;
